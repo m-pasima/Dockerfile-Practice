@@ -1,0 +1,19 @@
+# Ignore version control and dev files
+.git
+.gitignore
+*.env
+*.log
+*.pem
+*.crt
+*.key
+
+# IDE/editor junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Unneeded system or build files
+__pycache__/
+*.swp
+node_modules/
