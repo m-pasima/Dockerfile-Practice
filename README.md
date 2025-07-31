@@ -15,25 +15,24 @@ You'll use Nginx to serve a custom HTML file and add features like health checks
 ✅ Why image size, user permissions, and environment variables matter  
 ✅ How to make your container healthy and production-ready
 
----
+
 
 ## 🛠️ Initial Setup
 
 1. **Create a working directory:**
-   ```bash
-   mkdir nginx-dockerfile-lab && cd nginx-dockerfile-lab
+ ```bash
+  git clone https://github.com/m-pasima/Dockerfile-Practice.git
 ````
 
-2. **Create these files:**
+2. **Change Directory:**
 
    ```bash
-   touch Dockerfile index.html nginx.conf healthcheck.sh .dockerignore
+   cd Dockerfile-Practice.git
    ```
 
 3. **Open each file in your editor (e.g., VSCode):**
 
-   * Add basic HTML to `index.html`
-   * Write a simple health check script in `healthcheck.sh`
+   * Modify  `index.html` if needed
    * Use the [Dockerfile hints below](#💡-dockerfile-hints) to guide your implementation
 
 ---
@@ -133,4 +132,4 @@ Happy building!
 — Pasima 🧡
 
 
-```
+
